@@ -12,3 +12,11 @@ Integrate Keycloak authentication with Apache Superset LTS using Docker. This pr
 
 ### Getting Started
 Guide users on how to set up and get the project running locally.
+
+
+### Contributing
+Explain how others can contribute to your project. Include guidelines for submitting issues, pull requests, and any coding standards.
+
+### License
+This project is licensed under the MIT License.
+
