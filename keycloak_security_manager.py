@@ -1,3 +1,9 @@
+#
+# Author: Allan Nava
+# Company: Hiway Media
+# Description: Keycloak Security Manager
+# Date: 15-12-2023
+#
 from flask_appbuilder.security.manager import AUTH_OID
 from superset.security import SupersetSecurityManager
 from flask_oidc import OpenIDConnect
