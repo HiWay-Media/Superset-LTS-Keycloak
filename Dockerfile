@@ -1,6 +1,6 @@
 FROM apache/superset:latest
 USER root
-RUN pip install mysqlclient itsdangerous==2.0.1 flask-oidc==1.4.0  Flask-OpenID==1.3.0
+RUN pip install mysqlclient itsdangerous==2.0.1 flask-oidc==1.4.0  Flask-OpenID==1.3.0  mysql-connector-python==8.3.0
 #
 # Add custom superset_config.py file and shell files
 COPY superset_config.py /app/
